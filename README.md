@@ -1,5 +1,8 @@
 Install below software/tools:
 
+Download raw data using below command (This is test file):
+sratoolkit.3.0.10-ubuntu64/bin/fastq-dump --split-files SRR8428909
+
 HiSat2 (https://ccb.jhu.edu/software/hisat2)
 Samtools (http://www.htslib.org/) 
 FastQC (http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
