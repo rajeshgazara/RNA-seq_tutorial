@@ -2,8 +2,8 @@
 
 SECONDS=0
 
-# change working directory
-cd /mnt/c/rajesh/transcriptome
+# change the working directory
+cd transcriptome
 
 # STEP 1: Run fastqc
 fastqc -t 4 raw_data/*.fastq -o raw_data/
